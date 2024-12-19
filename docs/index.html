@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Event-Based Motion Magnification</title>
+  <title>Event-assisted 12-stop HDR Imaging of Dynamic Scene</title>
   <link rel="icon" type="image/x-icon" href="static/images/icon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,64 +52,56 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Event-Based Motion Magnification</h1>
-            <h3 class="title is-2 publication-conf", style="color: grey;">ECCV 2024</h3>
+            <h1 class="title is-1 publication-title">Event-assisted 12-stop HDR Imaging of Dynamic Scene</h1>
+            <h3 class="title is-2 publication-conf", style="color: grey;">Arxiv Coming Soon</h3>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://yutian10.github.io/" target="_blank">Yutian Chen</a><sup>1,2*</sup>,</span>
+                <a href="https://guoshi28.github.io/" target="_blank">Shi Guo</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="https://scholar.google.com.hk/citations?user=5hsEmuQAAAAJ&hl=zh-CN" target="_blank">Shi Guo</a><sup>1*,†</sup>,</span>
+                  <a href="https://scholar.google.com.hk/citations?user=pwixOhcAAAAJ&hl=ja&oi=sra" target="_blank">Zixuan Chen</a><sup>1,2</sup>,</span>
                 <span class="author-block">
-                  Fangzheng Yu<sup>1,2</sup>,</span>
+                  <a href="https://naturezhanghn.github.io/" target="_blank">Ziran Zhang</a><sup>1,2</sup>,</span>
                 <span class="author-block">
-                  Feng Zhang<sup>1</sup>,</span>
+                  <a href="https://yutian10.github.io/" target="_blank">Yutian Chen</a><sup>1,3</sup>,</span>
                 <span class="author-block">
-                  <a href="https://www.gujinwei.org/" target="_blank">Jinwei Gu</a><sup>3</sup>,</span>
+                  <a href="https://gangweix.github.io/" target="_blank">Gangwei Xu</a><sup>4</sup>,</span>
                   <span class="author-block">
-                    <a href="https://tianfan.info/" target="_blank">Tianfan Xue</a><sup>3</sup>
+                    <a href="https://tianfan.info/" target="_blank">Tianfan Xue</a><sup>3,1</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>Shanghai AI Laboratory, <sup>2</sup>Zhejiang University, 
-                      <sup>3</sup>The Chinese University of Hong Kong</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>indicates equal contributions, <sup>†</sup>indicates corresponding author</small></span>
+                    <span class="author-block"><sup>1</sup>Shanghai AI Laboratory, <sup>2</sup>Zhejiang University, </span>
+                    <span class="author-block"><sup>3</sup>The Chinese University of Hong Kong,
+                      <sup>4</sup>Huazhong University of Science and Technology</span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>indicates equal contributions, <sup>†</sup>indicates corresponding author</small></span> -->
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                       <!-- PDF Link. -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2402.11957.pdf"
+                        <a href=""
                            class="external-link button is-normal is-rounded is-dark">
                           <span class="icon">
                               <i class="fas fa-file-pdf"></i>
                           </span>
-                          <span>Paper</span>
-                        </a>
-                      </span>
-                      <!-- Video Link. -->
-                      <span class="link-block">
-                        <a href="https://youtu.be/WmI7bv9nqjI"
-                           class="external-link button is-normal is-rounded is-dark">
-                          <span class="icon">
-                              <i class="fab fa-youtube"></i>
-                          </span>
-                          <span>Video</span>
+                          <span>Paper (coming soon)</span>
                         </a>
                       </span>
                       <!-- Code Link. -->
                       <span class="link-block">
-                        <a href="https://github.com/OpenImagingLab/emm"
+                        <a href=""
                            class="external-link button is-normal is-rounded is-dark">
                           <span class="icon">
                               <i class="fab fa-github"></i>
                           </span>
-                          <span>Code</span>
+                          <span>Code (coming soon)</span>
                           </a>
                       </span>
                       <!-- Dataset Link. -->
+                      <!--
                       <span class="link-block">
                         <a href="https://drive.google.com/drive/folders/1ssEE1wvnBt4EZjxoCcfoIX8FzOsTIKN8?usp=drive_link"
                            class="external-link button is-normal is-rounded is-dark">
@@ -118,6 +110,8 @@
                           </span>
                           <span>Data</span>
                           </a>
+                      </span>
+                      -->
                     </div>
             </div>
           </div>
@@ -130,12 +124,15 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <!--
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="static/videos/teaser.mp4"
+        <source src="static/images/teaser_v12.jpg"
         type="video/mp4">
       </video>
+      -->
+      <img id="teaser" src="static/images/teaser_v12.jpg" alt="Teaser Image" height="100%">
       <h2 class="subtitle has-text-centered">
-        Our system enables a broad and cost-effective amplification of high-frequency motions.
+        Using event camera, our method present the first attempt at 12-stop HDR imaging for dynamic scenes.
       </h2>
     </div>
   </div>
@@ -149,7 +146,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Detecting and magnifying imperceptible high-frequency motions in real-world scenarios has substantial implications for industrial and medical applications. These motions are characterized by small amplitudes and high frequencies. Traditional motion magnification methods rely on costly high-speed cameras or active light sources, which limit the scope of their applications. In this work, we propose a dual-camera system consisting of an event camera and a conventional RGB camera for video motion magnification, containing temporally-dense information from the event stream and spatially-dense data from the RGB images. This innovative combination enables a broad and cost-effective amplification of high-frequency motions. By revisiting the physical camera model, we observe that estimating motion direction and magnitude necessitates the integration of event streams with additional image features. On this basis, we propose a novel deep network for event-based video motion magnification that addresses two primary challenges: firstly, the high frequency of motion induces a large number of interpolated frames (up to 80), which our network mitigates with a Second-order Recurrent Propagation module for better handling of long-term frame interpolations; and secondly, magnifying subtle motions is sensitive to noise, which we address by utilizing a temporal filter to amplify motion at specific frequencies and reduce noise impact. We demonstrate the effectiveness and accuracy of our dual-camera system and network through extensive experiments in magnifying small-amplitude, high-frequency motions, offering a cost-effective and flexible solution for motion detection and magnification.
+            High dynamic range (HDR) imaging is a crucial task in computational photography, which captures details across diverse lighting conditions. Traditional HDR fusion methods face limitations in dynamic scenes with extreme exposure differences, as aligning low dynamic range (LDR) frames becomes challenging due to motion and brightness variation. In this work, we propose a novel 12-stop HDR imaging approach for dynamic scenes, leveraging a dual-camera system with an event camera and an RGB camera. The event camera provides temporally dense, high dynamic range signals that improve alignment between LDR frames with large exposure differences, reducing ghosting artifacts caused by motion. Also, a real-world finetuning strategy is proposed to increase the generalization of alignment module on real-world events. Additionally, we introduce a diffusion-based fusion module that incorporates image priors from pre-trained diffusion models to address artifacts in high-contrast regions and minimize errors from the alignment process. To support this work, we developed the ESHDR dataset, the first dataset for 12-stop HDR imaging with synchronized event signals, and validated our approach on both simulated and real-world data. Extensive experiments demonstrate that our method achieves state-of-the-art performance, successfully extending HDR imaging to 12 stops in dynamic scenes.
           </p>
           <p></p>
           <p></p>
@@ -158,22 +155,75 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- Main Idea. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/WmI7bv9nqjI?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen height="30%"></iframe>
+        <h2 class="title is-4">Main idea</h2>
+        <div class="content has-text-justified">
+          <img id="teaser" src="static/images/framework_v16.png" alt="Teaser Image" height="100%">
+          <strong style="color:#2f5faf;">How we push the boundaries of dynamic scene HDR imaging to capture the full 12-stop range:</strong>
+          <ul>
+            <li> Our method utilize event camera (<strong>temporally dense, ~140dB</strong>) and propose the explict 
+              event-assisted alignment module to align LDRs with extreme exposure differences. 
+              Also the proposed alignment module is finetuned using real-world interpolation
+              datasets, which are easier to acquire and widely available, to brige the gap between simulated
+              and real-world events </li>
+            <li> We propose a diffusion-based fusion module to merge aligned LDR images with significant 
+              exposure differences and generate HDR images. By leveraging a pre-trained latent stable 
+              diffusion model as an image prior, our fusion module mitigates the effects of alignment errors and occlusion boundaries, 
+              thereby achieving artifact-free HDR results. </li>
+          </ul>
+          <figure style="text-align:center;">
+            <img id="ablation" src="static/images/ablation_v8.jpg" alt="Ablation Image" height="100%">
+            <figcaption style="font-size:0.9em; color:#555;">
+                Ablation study on fusion and alignment modules by comparison of different configurations.
+            </figcaption>
+          </figure>
+
+          <p></p>
+          <p></p>
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+    <!--/ Main Idea. -->
+
+    <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Visual Results</h2>
+        <div class="content has-text-justified">
+          <figure style="text-align:center;">
+            <img id="ablation" src="static/images/syn5.jpg" alt="Ablation Image" height="100%">
+            <figcaption style="font-size:0.9em; color:#555;">
+              Visual results on a synthetic image. To better illustrate both the darkest and brightest regions of a 12-stop HDR image, we apply two tone mapping styles (Deep and Vibrant) of the HDR tool (Photomatix).
+            </figcaption>
+          </figure>
+
+          <figure style="text-align:center;">
+            <img id="ablation" src="static/images/real_8.jpg" alt="Ablation Image" height="100%">
+            <figcaption style="font-size:0.9em; color:#555;">
+              Visual results on real-captured image.
+            </figcaption>
+          </figure>
+
+          <figure style="text-align:center;">
+            <img id="ablation" src="static/images/real2.jpg" alt="Ablation Image" height="100%">
+            <figcaption style="font-size:0.9em; color:#555;">
+              Visual results on real-captured image.
+            </figcaption>
+          </figure>
+
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <!--/ Results. -->
+
   </div>
 </section>
 
 <!-- End paper abstract -->
-
 <!-- Teaser video-->
 <!-- <section class="hero teaser">
   <div class="container is-max-desktop">
@@ -198,10 +248,10 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{chen2024eventbased,
-      title={Event-Based Motion Magnification}, 
-      author={Yutian Chen and Shi Guo and Fangzheng Yu and Feng Zhang and Jinwei Gu and Tianfan Xue},
-      journal={arXiv preprint arXiv:2402.11957},
+      <pre><code>@article{guo2024eventhdr,
+      title={Event-assisted 12-stop HDR Imaging of Dynamic Scene}, 
+      author={Shi Guo and Zixuan Chen and Ziran Zhang and Yutian Chen and Gangwei Xu and Tianfan Xue},
+      journal={arXiv preprint (Coming soon)},
       year={2024}
 }</code></pre>
     </div>
