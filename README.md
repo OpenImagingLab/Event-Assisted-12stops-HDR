@@ -1,5 +1,5 @@
 # Event-assisted 12-stop HDR Imaging of Dynamic Scene.
-### [Project Page](https://openimaginglab.github.io/Event-Assisted-12stops-HDR/) | [Paper (https://arxiv.org/abs/2412.14705)]() <br>
+### [Project Page](https://openimaginglab.github.io/Event-Assisted-12stops-HDR/) | [Paper](https://arxiv.org/abs/2412.14705)]() <br>
 
 Shi Guo, Zixuan Chen, Ziran Zhang, Yutian Chen, Gangwei Xu, Tianfan Xue <br><br>
 
