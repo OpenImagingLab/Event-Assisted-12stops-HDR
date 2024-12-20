@@ -1,5 +1,5 @@
 # Event-assisted 12-stop HDR Imaging of Dynamic Scene.
-### [Project Page](https://openimaginglab.github.io/Event-Assisted-12stops-HDR/) | [Paper (coming soon)]() <br>
+### [Project Page](https://openimaginglab.github.io/Event-Assisted-12stops-HDR/) | [Paper (https://arxiv.org/abs/2412.14705)]() <br>
 
 Shi Guo, Zixuan Chen, Ziran Zhang, Yutian Chen, Gangwei Xu, Tianfan Xue <br><br>
 
@@ -12,4 +12,11 @@ Coming soon
 
 
 ## Citations
-Coming soon
+```
+@article{guo2024eventhdr,
+      title={Event-assisted 12-stop HDR Imaging of Dynamic Scene}, 
+      author={Shi Guo and Zixuan Chen and Ziran Zhang and Yutian Chen and Gangwei Xu and Tianfan Xue},
+      journal={arXiv preprint arXiv:2412.14705},
+      year={2024}
+}
+```
